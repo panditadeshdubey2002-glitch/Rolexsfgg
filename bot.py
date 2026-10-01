@@ -104,7 +104,7 @@ from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboard
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters, CallbackQueryHandler
 
 # ========== ENV ==========
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8495053693:AAH28HAuqT_b5jtshK3UKweTpH5dnVgCXPo")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8495053693:AAFGI4W46SWbwpTGQApsIBhdvi0dTVHtOe4")
 OWNER_ID = int(os.environ.get("OWNER_ID", 8128821116))
 ADMIN_ID = int(os.environ.get("ADMIN_ID", 8128821116))
 WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", "https://kommodo.ai/i/wqVc4u68cErtebyE6okA")
